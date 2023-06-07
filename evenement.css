@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+
+    background-image: url(arriere\ plan.png);
+    position: relative;
+
+}
+
+
+
+.container1 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+
+.btn {
+    background: black;
+    color: white;
+    right: 10px;
+    bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3.card-title {
+
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: orange;
+}
+
+.card-title2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: orange;
+    margin-top: 25px;
+}
+
+.card-text {
+    color: black;
+    text-align: justify;
+    height: auto;
+
+}
+
+
+
+ul {
+
+    color: black;
+}
+
+.card {
+
+    background: rgb(201, 22, 22);
+    width: 50%;
+    margin-bottom: 20px;
+
+}
+
+.carte1,
+.carte2 {
+
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+
+.image-entète {
+
+    padding: 10px;
+}
+
+
+
+h2 {
+
+    background-image: url(mur-beton-gris-clair.png);
+    height: 70px;
+    color: rgb(201, 22, 22);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0%;
+
+}
+
+
+
+ol.breadcrumb {
+    margin-left: 10px;
+}
+
+.breadcrumb {
+
+    margin-bottom: 0%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 110px;
+    align-items: center;
+    background-image: url(mur-beton-gris-clair.png);
+    
+}
+
+
+@media (max-width: 440px) {
+
+    .card {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+

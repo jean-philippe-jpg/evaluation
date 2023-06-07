@@ -1,0 +1,83 @@
+
+body {
+ 
+    background-image: url(arriere\ plan.png);
+    
+}
+
+header {
+    background-image: url(mur-beton-gris-clair.png);
+    height: 70px;
+      
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+p {
+
+    color: orange;
+}
+
+
+button {
+    
+    background: orange;
+    color: white;
+    font-size: 20px;
+    width: 25%;
+    height: 40px;
+}
+a {
+
+    text-decoration: none;
+}
+
+.return {
+
+    background: green;
+    color: white;
+    width: 25%;
+    height: 40px;
+}
+label, input, textarea {
+
+    width: 100%;
+}
+ textarea {
+
+    resize: none;
+ }
+
+form {
+    width: 30%;
+}
+
+footer {
+    background-image: url(mur-beton-gris-clair.png);
+    height: 100px;
+   
+}
+
+@media (max-width: 440px) {
+
+    .container {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+
+        width: 200px;
+        margin-top: 20px;
+    }
+
+
+}
