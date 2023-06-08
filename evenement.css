@@ -68,15 +68,12 @@ ul {
     background: rgb(201, 22, 22);
     width: 50%;
     margin-bottom: 20px;
-
-}
-
-.carte1,
-.carte2 {
-
     margin-right: 20px;
     margin-left: 20px;
+
 }
+
+
 
 
 
@@ -94,7 +91,7 @@ h2 {
     color: rgb(201, 22, 22);
     font-family: 'Oswald', sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 0%;
 
 }
@@ -121,11 +118,16 @@ footer {
 }
 
 
-@media (max-width: 440px) {
+@media (max-width: 500px) {
 
+    .container {
+        flex-direction: column;
+        align-items: center;
+        
+    }
     .card {
         width: 100%;
-        margin-left: 0px;
+        
     }
 }
 

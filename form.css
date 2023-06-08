@@ -26,26 +26,30 @@ p {
 }
 
 
-button {
+.submit {
     
-    background: orange;
-    color: white;
+    background: rgb(255, 94, 0);
     font-size: 20px;
-    width: 25%;
+    width: 80px;
     height: 40px;
 }
+
+
 a {
 
     text-decoration: none;
+
 }
 
 .return {
 
     background: green;
-    color: white;
-    width: 25%;
+    width: 80px;
     height: 40px;
+    font-size: 20px;
 }
+
+
 label, input, textarea {
 
     width: 100%;

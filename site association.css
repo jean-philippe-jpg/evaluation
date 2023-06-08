@@ -6,8 +6,9 @@ body {
     background-image: url(arriere\ plan.png);
     
 }
- div.container {
+ .container {
     display: flex;
+    width: 40%;
  }
 
  .card-body {
@@ -20,9 +21,14 @@ body {
 
     background-image: url(mur-beton-gris-clair.png);
 }
-.navbar-brand {
+h2 {
     color: rgb(201, 22, 22);
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    margin-left: 10px;
 }
+
+
 .breadcrumb {
      margin-bottom: 0%;
 }
@@ -51,8 +57,6 @@ ul{
     background-color: rgb(201, 22, 22);
     margin-top: 25px;
     margin-bottom: 25px;
-   
-    
   }
   
   img {
@@ -69,12 +73,7 @@ article {
 
     color: black;
 }
-.navbar-brand {
 
-    font-family: 'Oswald', sans-serif;
-    margin-left: 30px;
-    font-size: 30px;
-}
 
 ol.breadcrumb {
 
@@ -95,11 +94,17 @@ footer{
     
     
 
-@media (min-width: 440px) {
+@media (max-width: 800px) {
 
-    .card {
-        width: 100%;
-       
+    .container {
+       width: 100%;
+    }
+    
+}
+@media (min-width: 800px) {
+
+    button {
+        display: none;
     }
 }
 
